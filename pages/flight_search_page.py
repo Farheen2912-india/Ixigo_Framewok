@@ -1,7 +1,7 @@
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from pages.flight_search_page import FlightSearchPage
+from pages.base_page import BasePage
 
 
 class FlightSearchPage(BasePage):
