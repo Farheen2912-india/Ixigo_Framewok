@@ -49,4 +49,5 @@ class LoginPage(BasePage):
 
     def click_password_next(self):
         self.click(self.password_next)
+        print("hello")
 
