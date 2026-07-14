@@ -1,6 +1,6 @@
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
-from pages.login_page import LoginPage
+from pages.base_page import BasePage
 
 class LoginPage(BasePage):
     login_signup = (By.XPATH,"(//button[contains(.,'Log in/Sign up')])[1]")
