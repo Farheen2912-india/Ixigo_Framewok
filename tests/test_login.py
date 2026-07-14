@@ -1,6 +1,6 @@
 import pytest
-from Ixigo_Login_Framework.pages.login_page import LoginPage
-from Ixigo_Login_Framework.utilities.read_excel import get_data
+from pages.login_page import LoginPage
+from utilities.read_excel import get_data
 
 @pytest.mark.parametrize("email,password", get_data())
 def test_google_login(driver, email, password):
